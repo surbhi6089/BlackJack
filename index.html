@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="blackjack.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BlackJack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="card-el">Cards:</p>
+        <p id="sum-el">Sum:</p>  
+        <button id="start-btn" onclick="startGame()">START GAME</button>
+        <button id="new-btn" onclick="newCard()">NEW CARD</button>
+        <!--p id="player-info"></p-->
+    </div>
+    <div class="rules">
+        <h2>Rules</h2>
+        <ol>
+            <li>
+                <a>If the total sum of the cards is less than 21 you can draw out a 
+                    new card.</a>
+            </li>
+            <li>
+                <a>You can draw out new cards until you win or loose the game.</a>
+            </li>
+            <li>
+                <a>If the total sum is 21 you win!</a>
+            </li>
+            <li>
+                <a>If the total sum is more than 21 you loose :(</a>
+            </li>
+        </ol>
+    </div>
+    <script src="blackjack.js"></script>
+</body>
+</html>

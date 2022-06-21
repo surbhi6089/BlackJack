@@ -1,0 +1,51 @@
+
+h1{
+    color: rgb(95, 84, 133);
+    font-weight: bold;
+    font-size: 30px;
+}
+p{
+    color: rgb(58, 100, 86);
+    font-weight: bold;
+    font-size: 25px;
+}
+#message-el{
+    font-style: italic;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgb(193, 230, 230);
+    border-radius: 10px;
+}
+#start-btn, #new-btn{
+    background-color: rgb(95, 84, 133);
+    color: rgb(193, 230, 230);
+    font-weight: bolder;
+    font-size: 25px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+    box-shadow: 2px 3px 7px 2px rgb(0, 0, 0, .3);
+    min-width: 200px;
+}
+#start-btn:hover, #new-btn:hover{
+    transform: scale(1.03);
+}
+.rules{
+    background-color: rgb(193, 230, 230);
+    color: rgb(95, 84, 133);
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+}
+.rules h2{
+    
+    text-align: center;
+}
